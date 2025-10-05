@@ -9,7 +9,7 @@ services:
     ports:
       - "8000:8000"
     environment:
-      - ALLOWED_ORIGINS=http://localhost:3000,http://frontend:3000,https://lanzat.ignacio.tech
+      - ALLOWED_ORIGINS=https://lanzat.ignacio.tech
       - PYTHONUNBUFFERED=1
     volumes:
       - ./lanzat-backend/data:/app/data
@@ -31,10 +31,7 @@ services:
     ports:
       - "3000:3000"
     environment:
-      # For local development
-      - NEXT_PUBLIC_API_URL=http://localhost:8000
-      # For production (Coolify), uncomment below:
-      # - NEXT_PUBLIC_API_URL=https://lanzat.api.ignacio.tech
+      - NEXT_PUBLIC_API_URL=https://lanzat.api.ignacio.tech
       - NODE_ENV=production
     depends_on:
       backend:

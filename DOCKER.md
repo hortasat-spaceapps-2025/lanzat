@@ -171,7 +171,18 @@ cd lanzat-backend && source venv/bin/activate && uvicorn app.main:app --reload
 cd lanzat-frontend && npm run dev
 ```
 
-### Producción (Docker)
+### Producción Local (Docker)
 ```bash
 docker-compose up -d
+```
+
+### Producción en Coolify
+```bash
+# Usar docker-compose.prod.yml con URLs de producción
+docker-compose -f docker-compose.prod.yml up -d
+
+# URLs de producción:
+# Frontend: https://lanzat.ignacio.tech
+# Backend: https://lanzat.api.ignacio.tech
+# API Docs: https://lanzat.api.ignacio.tech/docs
 ```

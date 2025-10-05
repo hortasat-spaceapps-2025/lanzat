@@ -34,6 +34,12 @@ docker-compose up -d
 # API Docs: http://localhost:8000/docs
 \`\`\`
 
+## 🌐 Demo en Vivo
+
+- **Frontend**: https://lanzat.ignacio.tech
+- **Backend API**: https://lanzat.api.ignacio.tech
+- **API Docs**: https://lanzat.api.ignacio.tech/docs
+
 ## 🎯 Deployment en Coolify
 
 ### Paso 1: Crear Proyecto
@@ -47,9 +53,16 @@ docker-compose up -d
 - **Docker Compose Path**: \`docker-compose.yml\`
 
 ### Paso 3: Variables de Entorno
+
+**Backend:**
 \`\`\`bash
-ALLOWED_ORIGINS=https://your-frontend-domain.com
-NEXT_PUBLIC_API_URL=https://your-backend-domain.com
+ALLOWED_ORIGINS=https://lanzat.ignacio.tech
+PYTHONUNBUFFERED=1
+\`\`\`
+
+**Frontend:**
+\`\`\`bash
+NEXT_PUBLIC_API_URL=https://lanzat.api.ignacio.tech
 NODE_ENV=production
 \`\`\`
 
