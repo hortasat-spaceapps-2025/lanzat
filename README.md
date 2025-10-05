@@ -4,7 +4,7 @@
 ![Data](https://img.shields.io/badge/Data-NOAA%20IBTrACS-green)
 ![Real--time](https://img.shields.io/badge/Real--time-Hurricane%20Tracking-red)
 
-**Sistema completo para analizar riesgo de huracanes, vulnerabilidad económica e impacto social en 67 condados de Florida usando datos históricos de NOAA (1851-2023) y seguimiento en tiempo real.**
+**Complete system for analyzing hurricane risk, economic vulnerability, and social impact across 67 Florida counties using NOAA historical data (1851-2023) and real-time tracking.**
 
 ---
 
@@ -16,42 +16,42 @@
 
 ---
 
-## 🌊 Características
+## 🌊 Features
 
-### Análisis Histórico
-- **Datos NOAA IBTrACS**: 704 tormentas históricas desde 1851-2023
-- **Cálculo de Riesgo**: Basado en frecuencia (50%), intensidad promedio (30%), intensidad máxima (20%)
-- **Modelo de Vulnerabilidad**: 25% Riesgo + 20% Social + 20% Económico + 20% Propiedades + 15% Rural
+### Historical Analysis
+- **NOAA IBTrACS Data**: 704 historical storms from 1851-2023
+- **Risk Calculation**: Based on frequency (50%), average intensity (30%), maximum intensity (20%)
+- **Vulnerability Model**: 25% Risk + 20% Social + 20% Economic + 20% Property + 15% Rural
 
-### Capacidades en Tiempo Real
-- **Seguimiento de Tormentas Activas**: Integración con API NOAA NHC
-- **Evaluación de Amenazas por Condado**: Niveles de amenaza basados en distancia
-- **Alertas Críticas**: Análisis combinado de amenaza actual + vulnerabilidad histórica
+### Real-time Capabilities
+- **Active Storm Tracking**: Integration with NOAA NHC API
+- **County Threat Assessment**: Distance-based threat levels
+- **Critical Alerts**: Combined analysis of current threat + historical vulnerability
 
 ---
 
 ## 🚀 Quick Start
 
-### Desarrollo Local
+### Local Development
 
 ```bash
-# Clonar repositorio
+# Clone repository
 git clone https://github.com/hortasat-spaceapps-2025/lanzat.git
 cd lanzat
 
-# Iniciar con Docker (desarrollo local)
+# Start with Docker (local development)
 docker-compose -f docker-compose.local.yml up -d
 
-# Acceder
+# Access
 # Frontend: http://localhost:3000
 # Backend:  http://localhost:8000
 # API Docs: http://localhost:8000/docs
 ```
 
-### Producción (Coolify)
+### Production (Coolify)
 
 ```bash
-# Usar docker-compose.yml (Coolify maneja el proxy)
+# Use docker-compose.yml (Coolify handles proxy)
 docker-compose up -d
 ```
 
@@ -59,23 +59,23 @@ docker-compose up -d
 
 ## 📊 API Endpoints
 
-### Datos Históricos
-- `GET /api/counties` - Todos los condados con scores de vulnerabilidad
-- `GET /api/counties/{name}` - Detalles de condado específico
-- `GET /api/top-vulnerable?limit=10` - Top condados vulnerables
-- `GET /api/stats` - Estadísticas generales
-- `GET /api/enhanced/critical-rural` - Zonas rurales críticas
-- `GET /api/enhanced/correlations` - Análisis de correlación
+### Historical Data
+- `GET /api/counties` - All counties with vulnerability scores
+- `GET /api/counties/{name}` - Specific county details
+- `GET /api/top-vulnerable?limit=10` - Top vulnerable counties
+- `GET /api/stats` - General statistics
+- `GET /api/enhanced/critical-rural` - Critical rural zones
+- `GET /api/enhanced/correlations` - Correlation analysis
 
-### Datos en Tiempo Real
-- `GET /api/realtime/active-storms` - Huracanes activos (NOAA NHC)
-- `GET /api/realtime/county-threats` - Amenazas por condado
-- `GET /api/realtime/critical-threats` - Condados en alerta crítica
-- `POST /api/realtime/refresh` - Refrescar datos en tiempo real
+### Real-time Data
+- `GET /api/realtime/active-storms` - Active hurricanes (NOAA NHC)
+- `GET /api/realtime/county-threats` - County-level threats
+- `GET /api/realtime/critical-threats` - Counties under critical alert
+- `POST /api/realtime/refresh` - Refresh real-time data
 
-### Sistema
-- `GET /health` - Health check del servicio
-- `GET /` - Información de la API y endpoints disponibles
+### System
+- `GET /health` - Service health check
+- `GET /` - API information and available endpoints
 
 ---
 
@@ -83,59 +83,59 @@ docker-compose up -d
 
 **Backend**:
 - Python 3.11
-- FastAPI (API REST)
-- GeoPandas (análisis geoespacial)
-- GDAL (procesamiento de datos satelitales)
-- Shapely (geometrías)
+- FastAPI (REST API)
+- GeoPandas (geospatial analysis)
+- GDAL (satellite data processing)
+- Shapely (geometries)
 
 **Frontend**:
 - Next.js 14 (React framework)
 - TypeScript
-- Leaflet (mapas interactivos)
-- Tailwind CSS (estilos)
+- Leaflet (interactive maps)
+- Tailwind CSS (styling)
 
 **Infrastructure**:
 - Docker + Docker Compose
 - Coolify (deployment)
-- Traefik (proxy reverso)
+- Traefik (reverse proxy)
 
 ---
 
-## 📁 Estructura del Proyecto
+## 📁 Project Structure
 
 ```
 lanzat/
-├── docker-compose.yml              # Producción (Coolify)
-├── docker-compose.local.yml        # Desarrollo local
+├── docker-compose.yml              # Production (Coolify)
+├── docker-compose.local.yml        # Local development
 ├── lanzat-backend/
 │   ├── Dockerfile
 │   ├── app/
 │   │   └── main.py                 # FastAPI application
 │   ├── scripts/
-│   │   ├── download_noaa_hurricanes.py     # Descarga datos históricos
-│   │   ├── calculate_real_hurricane_risk.py # Calcula riesgos
-│   │   ├── enrich_with_statista.py         # Enriquece con datos económicos
-│   │   └── fetch_active_hurricanes.py      # Datos en tiempo real
+│   │   ├── download_noaa_hurricanes.py     # Download historical data
+│   │   ├── calculate_real_hurricane_risk.py # Calculate risks
+│   │   ├── enrich_with_statista.py         # Enrich with economic data
+│   │   └── fetch_active_hurricanes.py      # Real-time data
 │   ├── data/
-│   │   ├── raw/                    # Datos sin procesar
-│   │   └── processed/              # GeoJSON procesados
+│   │   ├── raw/                    # Raw data
+│   │   └── processed/              # Processed GeoJSON
 │   └── requirements.txt
 └── lanzat-frontend/
     ├── Dockerfile
     ├── pages/
-    │   └── index.tsx               # Página principal
+    │   └── index.tsx               # Main page
     ├── components/
-    │   ├── Map.tsx                 # Mapa interactivo de Florida
-    │   └── Dashboard.tsx           # Dashboard con KPIs
+    │   ├── Map.tsx                 # Interactive Florida map
+    │   └── Dashboard.tsx           # Dashboard with KPIs
     ├── next.config.mjs
     └── package.json
 ```
 
 ---
 
-## 🔧 Configuración
+## 🔧 Configuration
 
-### Variables de Entorno
+### Environment Variables
 
 **Backend (`lanzat-backend/.env`):**
 ```bash
@@ -151,16 +151,16 @@ NODE_ENV=production
 
 ---
 
-## 🎯 Deployment en Coolify
+## 🎯 Deployment on Coolify
 
-### Paso 1: Configuración en Coolify UI
+### Step 1: Coolify UI Configuration
 
-1. **Crear nuevo recurso** → Docker Compose
+1. **Create new resource** → Docker Compose
 2. **Repository**: `https://github.com/hortasat-spaceapps-2025/lanzat`
 3. **Branch**: `main`
 4. **Compose File**: `docker-compose.yml`
 
-### Paso 2: Configurar Dominios
+### Step 2: Configure Domains
 
 **Backend:**
 - Service: `backend`
@@ -172,72 +172,72 @@ NODE_ENV=production
 - Domain: `lanzat.ignacio.tech`
 - Port: `3000`
 
-### Paso 3: Variables de Entorno (Coolify)
+### Step 3: Environment Variables (Coolify)
 
 ```bash
 ALLOWED_ORIGINS=https://lanzat.ignacio.tech
 NEXT_PUBLIC_API_URL=https://lanzat.api.ignacio.tech
 ```
 
-### Paso 4: Deploy
+### Step 4: Deploy
 
-Click **Deploy** - Coolify construirá y desplegará automáticamente.
+Click **Deploy** - Coolify will automatically build and deploy.
 
-### Paso 5: Generar Datos Iniciales
+### Step 5: Generate Initial Data
 
 ```bash
-# Encontrar container ID del backend
+# Find backend container ID
 docker ps | grep backend
 
-# Ejecutar scripts de generación
+# Execute generation scripts
 docker exec <backend-container-id> python scripts/download_noaa_hurricanes.py
 docker exec <backend-container-id> python scripts/calculate_real_hurricane_risk.py
 docker exec <backend-container-id> python scripts/enrich_with_statista.py
 docker exec <backend-container-id> python scripts/fetch_active_hurricanes.py
 ```
 
-### Paso 6 (Opcional): Cron Job para Actualizaciones
+### Step 6 (Optional): Cron Job for Updates
 
-Configurar en Coolify para actualizar huracanes activos cada 30 minutos:
+Configure in Coolify to update active hurricanes every 30 minutes:
 ```bash
 */30 * * * * python scripts/fetch_active_hurricanes.py
 ```
 
 ---
 
-## 🧮 Algoritmo de Vulnerabilidad
+## 🧮 Vulnerability Algorithm
 
-### Fórmula del Score
+### Score Formula
 
 ```python
 vulnerability_score = (
     svi_score * 0.4 +          # 40% Social Vulnerability Index
-    hurricane_score * 0.4 +     # 40% Riesgo de huracanes
-    economic_score * 0.2        # 20% Vulnerabilidad económica
+    hurricane_score * 0.4 +     # 40% Hurricane risk
+    economic_score * 0.2        # 20% Economic vulnerability
 )
 ```
 
-**Componentes:**
+**Components:**
 
 1. **Social Vulnerability (SVI)** - CDC Social Vulnerability Index
-   - Nivel socioeconómico
-   - Composición del hogar
-   - Minorías/lenguaje
-   - Vivienda/transporte
+   - Socioeconomic status
+   - Household composition
+   - Minority status/language
+   - Housing/transportation
 
 2. **Hurricane Risk** - FEMA National Risk Index
-   - Frecuencia histórica de huracanes
-   - Intensidad promedio
+   - Historical hurricane frequency
+   - Average intensity
    - Expected Annual Loss (EAL)
 
 3. **Economic Vulnerability**
-   - GDP per capita del condado
-   - Valor de propiedades
-   - Densidad poblacional
+   - County GDP per capita
+   - Property values
+   - Population density
 
-### Categorías de Riesgo
+### Risk Categories
 
-| Score | Categoría | Color |
+| Score | Category | Color |
 |-------|-----------|-------|
 | 80-100% | Critical | 🔴 #8B0000 |
 | 60-80% | High | 🟠 #DC143C |
@@ -247,16 +247,16 @@ vulnerability_score = (
 
 ---
 
-## 📡 Fuentes de Datos
+## 📡 Data Sources
 
-### Históricas
+### Historical
 - **NOAA IBTrACS**: Hurricane tracks (1851-2023)
 - **BEA**: County GDP data
 - **CDC SVI**: Social Vulnerability Index
 - **FEMA NRI**: National Risk Index
 - **Census**: Florida county boundaries
 
-### Tiempo Real
+### Real-time
 - **NOAA NHC**: Current Storms API
 - **NASA**: Satellite imagery (Landsat, MODIS)
 
@@ -264,48 +264,48 @@ vulnerability_score = (
 
 ## 🐛 Troubleshooting
 
-### Backend no inicia
+### Backend won't start
 
 ```bash
-# Ver logs
+# View logs
 docker logs <backend-container-id>
 
-# Verificar health
+# Check health
 curl http://localhost:8000/health
 ```
 
-### Frontend da 503
+### Frontend returns 503
 
 ```bash
-# Verificar que el contenedor está corriendo
+# Verify container is running
 docker ps | grep frontend
 
-# Ver logs
+# View logs
 docker logs <frontend-container-id>
 
-# Debe mostrar: "ready - started server on 0.0.0.0:3000"
+# Should show: "ready - started server on 0.0.0.0:3000"
 ```
 
 ### CORS errors
 
-Verificar que `ALLOWED_ORIGINS` en backend incluye el dominio del frontend:
+Verify that `ALLOWED_ORIGINS` in backend includes frontend domain:
 ```bash
 docker exec <backend-container-id> env | grep ALLOWED_ORIGINS
 ```
 
-### Datos no cargan
+### Data not loading
 
 ```bash
-# Verificar que existen los archivos procesados
+# Verify processed files exist
 docker exec <backend-container-id> ls -la /app/data/processed/
 
-# Si están vacíos, ejecutar scripts de generación
+# If empty, run generation scripts
 docker exec <backend-container-id> python scripts/download_noaa_hurricanes.py
 ```
 
 ---
 
-## 🏆 Créditos
+## 🏆 Credits
 
 **Team**: HortaSat
 **Event**: NASA Space Apps Challenge 2025
@@ -313,9 +313,9 @@ docker exec <backend-container-id> python scripts/download_noaa_hurricanes.py
 
 ---
 
-## 📄 Licencia
+## 📄 License
 
-MIT License - Ver archivo LICENSE para detalles
+MIT License - See LICENSE file for details
 
 ---
 
