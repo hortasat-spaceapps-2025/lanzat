@@ -62,3 +62,6 @@ docker-compose.override.yml
 
 # Deployment guides (local only)
 COOLIFY_DEPLOYMENT.md
+
+# Design source files (working files)
+export-*.svg
