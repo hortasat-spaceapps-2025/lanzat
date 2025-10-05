@@ -33,8 +33,8 @@ RUN mkdir -p data/raw data/processed
 # Expose port
 EXPOSE 8000
 
-# Health check
-HEALTHCHECK --interval=30s --timeout=10s --start-period=5s --retries=3 \
+# Health check - Increased start_period for data loading
+HEALTHCHECK --interval=30s --timeout=10s --start-period=90s --retries=5 \
     CMD curl -f http://localhost:8000/health || exit 1
 
 # Run the application

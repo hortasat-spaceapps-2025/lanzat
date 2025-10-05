@@ -12,12 +12,6 @@ services:
       - PYTHONUNBUFFERED=1
     volumes:
       - backend-data:/app/data
-    healthcheck:
-      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
-      interval: 30s
-      timeout: 10s
-      retries: 5
-      start_period: 60s
     restart: always
 
   frontend:
@@ -29,14 +23,6 @@ services:
     environment:
       - NEXT_PUBLIC_API_URL=${NEXT_PUBLIC_API_URL:-https://lanzat.api.ignacio.tech}
       - NODE_ENV=production
-    healthcheck:
-      test: ["CMD-SHELL", "node -e \"require('http').get('http://localhost:3000', (r) => {process.exit(r.statusCode === 200 ? 0 : 1)})\""]
-      interval: 30s
-      timeout: 10s
-      retries: 5
-      start_period: 60s
-    depends_on:
-      - backend
     restart: always
 
 volumes:
