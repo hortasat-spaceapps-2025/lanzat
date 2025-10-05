@@ -34,16 +34,16 @@ build/
 Thumbs.db
 
 # Data (processed files are generated, keep raw data)
-vulnerabilitymap-backend/data/processed/*.geojson
-vulnerabilitymap-backend/data/processed/*.json
-vulnerabilitymap-backend/data/processed/*.csv
-vulnerabilitymap-backend/data/raw/*.csv
-vulnerabilitymap-backend/data/raw/*.zip
-vulnerabilitymap-backend/data/raw/*.geojson
+lanzat-backend/data/processed/*.geojson
+lanzat-backend/data/processed/*.json
+lanzat-backend/data/processed/*.csv
+lanzat-backend/data/raw/*.csv
+lanzat-backend/data/raw/*.zip
+lanzat-backend/data/raw/*.geojson
 
 # Keep directory structure
-!vulnerabilitymap-backend/data/raw/.gitkeep
-!vulnerabilitymap-backend/data/processed/.gitkeep
+!lanzat-backend/data/raw/.gitkeep
+!lanzat-backend/data/processed/.gitkeep
 
 # Logs
 *.log
