@@ -1,0 +1,11 @@
+<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="64" height="64" fill="white" rx="8"/>
+<!-- Simplified hurricane spiral (Red crimson) -->
+<circle cx="32" cy="32" r="26" fill="#DC143C"/>
+<!-- Inner circle detail (Navy blue) -->
+<circle cx="32" cy="32" r="18" fill="#002C73"/>
+<!-- Center eye (Gold) -->
+<circle cx="32" cy="32" r="8" fill="#FFD700"/>
+<!-- Small inner detail (White) -->
+<circle cx="32" cy="32" r="3" fill="white"/>
+</svg>
