@@ -20,18 +20,29 @@
 
 ## 🚀 Quick Start con Docker
 
+### Desarrollo Local
+
 \`\`\`bash
 # Clonar repositorio
 git clone https://github.com/hortasat-spaceapps-2025/lanzat.git
 cd lanzat
 
-# Iniciar servicios
-docker-compose up -d
+# Iniciar servicios (con mapeo de puertos)
+docker-compose -f docker-compose.local.yml up -d
 
 # Acceder
 # Frontend: http://localhost:3000
 # Backend:  http://localhost:8000
 # API Docs: http://localhost:8000/docs
+\`\`\`
+
+### Producción (Coolify)
+
+\`\`\`bash
+# Usar docker-compose.yml (sin mapeo de puertos, usa EXPOSE)
+docker-compose up -d
+
+# Coolify manejará el proxy reverso automáticamente
 \`\`\`
 
 ## 🌐 Demo en Vivo

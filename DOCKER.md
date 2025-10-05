@@ -7,21 +7,31 @@
 
 ## Quick Start
 
-### 1. Construir y ejecutar todos los servicios
+### 1. Desarrollo Local (con mapeo de puertos)
 
 ```bash
-docker-compose up --build
+# Usar docker-compose.local.yml para desarrollo
+docker-compose -f docker-compose.local.yml up --build
+
+# O en segundo plano
+docker-compose -f docker-compose.local.yml up -d
 ```
 
 Esto iniciará:
 - **Backend** (FastAPI): http://localhost:8000
 - **Frontend** (Next.js): http://localhost:3000
 
-### 2. Ejecutar en segundo plano
+### 2. Producción / Coolify (solo EXPOSE)
 
 ```bash
+# Usar docker-compose.yml para Coolify
+docker-compose up --build
+
+# O en segundo plano
 docker-compose up -d
 ```
+
+Los puertos se exponen pero NO se mapean directamente. Coolify usa su proxy reverso para el routing.
 
 ### 3. Ver logs
 
@@ -165,24 +175,36 @@ Para producción, considera:
 
 ## Desarrollo vs Producción
 
-### Desarrollo (local con hot-reload)
+### Desarrollo Local (sin Docker - hot-reload)
 ```bash
 cd lanzat-backend && source venv/bin/activate && uvicorn app.main:app --reload
 cd lanzat-frontend && npm run dev
 ```
 
-### Producción Local (Docker)
+### Desarrollo Local (con Docker)
 ```bash
-docker-compose up -d
+# Usa docker-compose.local.yml con mapeo de puertos
+docker-compose -f docker-compose.local.yml up -d
+
+# Acceder en:
+# Frontend: http://localhost:3000
+# Backend: http://localhost:8000
 ```
 
 ### Producción en Coolify
 ```bash
-# Usar docker-compose.prod.yml con URLs de producción
-docker-compose -f docker-compose.prod.yml up -d
+# Usa docker-compose.yml (EXPOSE sin mapeo de puertos)
+docker-compose up -d
 
+# Coolify maneja el proxy reverso
 # URLs de producción:
 # Frontend: https://lanzat.ignacio.tech
 # Backend: https://lanzat.api.ignacio.tech
 # API Docs: https://lanzat.api.ignacio.tech/docs
 ```
+
+## Archivos de Configuración
+
+- **docker-compose.yml** - Para Coolify (usa EXPOSE, sin mapeo de puertos)
+- **docker-compose.local.yml** - Para desarrollo local (mapea puertos 3000 y 8000)
+- **docker-compose.prod.yml** - Producción con URLs específicas

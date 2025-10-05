@@ -6,10 +6,10 @@ services:
       context: ./lanzat-backend
       dockerfile: Dockerfile
     container_name: lanzat-backend
-    expose:
-      - "8000"
+    ports:
+      - "8000:8000"
     environment:
-      - ALLOWED_ORIGINS=https://lanzat.ignacio.tech
+      - ALLOWED_ORIGINS=http://localhost:3000,http://frontend:3000
       - PYTHONUNBUFFERED=1
     volumes:
       - ./lanzat-backend/data:/app/data
@@ -28,10 +28,10 @@ services:
       context: ./lanzat-frontend
       dockerfile: Dockerfile
     container_name: lanzat-frontend
-    expose:
-      - "3000"
+    ports:
+      - "3000:3000"
     environment:
-      - NEXT_PUBLIC_API_URL=https://lanzat.api.ignacio.tech
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
       - NODE_ENV=production
     depends_on:
       backend:
