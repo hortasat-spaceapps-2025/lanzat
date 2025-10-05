@@ -1,0 +1,172 @@
+{
+  "generated_at": "2025-10-05T02:36:24.390803",
+  "total_counties": 67,
+  "enhanced_vulnerability_stats": {
+    "mean": 0.5193986518028139,
+    "median": 0.511980623487382,
+    "std": 0.07240439606743926,
+    "min": 0.33619794472712766,
+    "max": 0.7499173131541956
+  },
+  "property_value_stats": {
+    "mean": 319744.53731343284,
+    "median": 300000.0,
+    "min": 160000.0,
+    "max": 850000.0
+  },
+  "rural_distribution": {
+    "suburban": 29,
+    "rural": 24,
+    "urban": 10,
+    "rural_coastal": 4
+  },
+  "fema_risk_distribution": {
+    "low": 24,
+    "moderate": 23,
+    "high": 18,
+    "very_high": 2
+  },
+  "enhanced_risk_category_counts": {
+    "Moderate": 59,
+    "High": 7,
+    "Low": 1
+  },
+  "critical_rural_zones_count": 1,
+  "top_10_vulnerable_enhanced": [
+    {
+      "NAME": "Collier",
+      "enhanced_vulnerability": 0.7499173131541956,
+      "rural_status": "suburban",
+      "median_home_value": 850000
+    },
+    {
+      "NAME": "Monroe",
+      "enhanced_vulnerability": 0.7499044559414592,
+      "rural_status": "rural_coastal",
+      "median_home_value": 750000
+    },
+    {
+      "NAME": "Gulf",
+      "enhanced_vulnerability": 0.6336359969669656,
+      "rural_status": "rural_coastal",
+      "median_home_value": 235000
+    },
+    {
+      "NAME": "Martin",
+      "enhanced_vulnerability": 0.6110600612637838,
+      "rural_status": "suburban",
+      "median_home_value": 520000
+    },
+    {
+      "NAME": "Putnam",
+      "enhanced_vulnerability": 0.6075781097407182,
+      "rural_status": "rural",
+      "median_home_value": 230000
+    },
+    {
+      "NAME": "Indian River",
+      "enhanced_vulnerability": 0.6037773218430993,
+      "rural_status": "suburban",
+      "median_home_value": 480000
+    },
+    {
+      "NAME": "Citrus",
+      "enhanced_vulnerability": 0.6024428931235907,
+      "rural_status": "rural",
+      "median_home_value": 245000
+    },
+    {
+      "NAME": "Walton",
+      "enhanced_vulnerability": 0.5975319238299566,
+      "rural_status": "rural_coastal",
+      "median_home_value": 500000
+    },
+    {
+      "NAME": "Highlands",
+      "enhanced_vulnerability": 0.5947358250718895,
+      "rural_status": "rural",
+      "median_home_value": 240000
+    },
+    {
+      "NAME": "Hardee",
+      "enhanced_vulnerability": 0.586760441977104,
+      "rural_status": "rural",
+      "median_home_value": 205000
+    }
+  ],
+  "top_10_property_exposure": [
+    {
+      "NAME": "Collier",
+      "median_home_value": 850000,
+      "property_growth_rate": 6.2,
+      "fema_risk_zone": "high"
+    },
+    {
+      "NAME": "Monroe",
+      "median_home_value": 750000,
+      "property_growth_rate": 4.5,
+      "fema_risk_zone": "very_high"
+    },
+    {
+      "NAME": "Miami-Dade",
+      "median_home_value": 650000,
+      "property_growth_rate": 5.7,
+      "fema_risk_zone": "very_high"
+    },
+    {
+      "NAME": "Palm Beach",
+      "median_home_value": 650000,
+      "property_growth_rate": 5.7,
+      "fema_risk_zone": "high"
+    },
+    {
+      "NAME": "Sarasota",
+      "median_home_value": 550000,
+      "property_growth_rate": 6.5,
+      "fema_risk_zone": "high"
+    },
+    {
+      "NAME": "Martin",
+      "median_home_value": 520000,
+      "property_growth_rate": 5.1,
+      "fema_risk_zone": "high"
+    },
+    {
+      "NAME": "Walton",
+      "median_home_value": 500000,
+      "property_growth_rate": 9.2,
+      "fema_risk_zone": "high"
+    },
+    {
+      "NAME": "Indian River",
+      "median_home_value": 480000,
+      "property_growth_rate": 4.8,
+      "fema_risk_zone": "high"
+    },
+    {
+      "NAME": "Broward",
+      "median_home_value": 457884,
+      "property_growth_rate": 8.4,
+      "fema_risk_zone": "high"
+    },
+    {
+      "NAME": "Lee",
+      "median_home_value": 420000,
+      "property_growth_rate": 6.1,
+      "fema_risk_zone": "high"
+    }
+  ],
+  "critical_rural_zones": [
+    {
+      "NAME": "Monroe",
+      "enhanced_vulnerability": 0.7499044559414592,
+      "gdp": 991,
+      "population_density": 49
+    }
+  ],
+  "correlations": {
+    "gdp_vulnerability": -0.24652566255276717,
+    "property_vulnerability": 0.2588372407268134,
+    "density_vulnerability": -0.28096678181157214
+  }
+}

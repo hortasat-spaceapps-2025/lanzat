@@ -1,0 +1,42 @@
+{
+  "generated_at": "2025-10-05T02:55:58.647030",
+  "active_storms_count": 2,
+  "active_storms": [
+    {
+      "id": "ep162025",
+      "name": "Priscilla",
+      "classification": "TS",
+      "intensity": "40",
+      "pressure": "1002",
+      "latitude": "15.4N",
+      "longitude": "106.6W",
+      "movement": "",
+      "last_update": "2025-10-05T00:00:00.000Z",
+      "wind_speed_kt": 0,
+      "category": "Tropical Depression"
+    },
+    {
+      "id": "ep152025",
+      "name": "Octave",
+      "classification": "TS",
+      "intensity": "55",
+      "pressure": "997",
+      "latitude": "14.9N",
+      "longitude": "123.9W",
+      "movement": "",
+      "last_update": "2025-10-04T21:00:00.000Z",
+      "wind_speed_kt": 0,
+      "category": "Tropical Depression"
+    }
+  ],
+  "threat_distribution": {
+    "extreme": 0,
+    "high": 0,
+    "moderate": 0,
+    "low": 0,
+    "none": 67
+  },
+  "counties_under_threat": 0,
+  "critical_counties": [],
+  "total_counties_analyzed": 67
+}

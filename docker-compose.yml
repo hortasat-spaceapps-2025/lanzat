@@ -1,0 +1,49 @@
+version: '3.8'
+
+services:
+  backend:
+    build:
+      context: ./lanzat-backend
+      dockerfile: Dockerfile
+    container_name: lanzat-backend
+    ports:
+      - "8000:8000"
+    environment:
+      - ALLOWED_ORIGINS=http://localhost:3000,http://frontend:3000
+      - PYTHONUNBUFFERED=1
+    volumes:
+      - ./lanzat-backend/data:/app/data
+    networks:
+      - lanzat-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 40s
+    restart: unless-stopped
+
+  frontend:
+    build:
+      context: ./lanzat-frontend
+      dockerfile: Dockerfile
+    container_name: lanzat-frontend
+    ports:
+      - "3000:3000"
+    environment:
+      - NEXT_PUBLIC_API_URL=http://localhost:8000
+      - NODE_ENV=production
+    depends_on:
+      backend:
+        condition: service_healthy
+    networks:
+      - lanzat-network
+    restart: unless-stopped
+
+networks:
+  lanzat-network:
+    driver: bridge
+
+volumes:
+  backend-data:
+    driver: local

@@ -1,0 +1,672 @@
+[
+  {
+    "NAME": "Alachua",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.474995495510203
+  },
+  {
+    "NAME": "Baker",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4599390366627046
+  },
+  {
+    "NAME": "Bay",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5017850029400338
+  },
+  {
+    "NAME": "Bradford",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4557882904433798
+  },
+  {
+    "NAME": "Brevard",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4950702229016002
+  },
+  {
+    "NAME": "Broward",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5359015952583843
+  },
+  {
+    "NAME": "Calhoun",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5519032907609054
+  },
+  {
+    "NAME": "Charlotte",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.569477707746803
+  },
+  {
+    "NAME": "Citrus",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.6024428931235907
+  },
+  {
+    "NAME": "Clay",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5372659598301839
+  },
+  {
+    "NAME": "Collier",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.7499173131541956
+  },
+  {
+    "NAME": "Columbia",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4425438924038423
+  },
+  {
+    "NAME": "DeSoto",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5463379567629794
+  },
+  {
+    "NAME": "Dixie",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5714455683510598
+  },
+  {
+    "NAME": "Duval",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4712589701224572
+  },
+  {
+    "NAME": "Escambia",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4409641103377719
+  },
+  {
+    "NAME": "Flagler",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5394325770525583
+  },
+  {
+    "NAME": "Franklin",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5373686099010746
+  },
+  {
+    "NAME": "Gadsden",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5174035305112424
+  },
+  {
+    "NAME": "Gilchrist",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5430840417831281
+  },
+  {
+    "NAME": "Glades",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.573777632886524
+  },
+  {
+    "NAME": "Gulf",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.6336359969669656
+  },
+  {
+    "NAME": "Hamilton",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5012635544262978
+  },
+  {
+    "NAME": "Hardee",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.586760441977104
+  },
+  {
+    "NAME": "Hendry",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5547987460904942
+  },
+  {
+    "NAME": "Hernando",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.507037405348522
+  },
+  {
+    "NAME": "Highlands",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5947358250718895
+  },
+  {
+    "NAME": "Hillsborough",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4541672677234804
+  },
+  {
+    "NAME": "Holmes",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.511980623487382
+  },
+  {
+    "NAME": "Indian River",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.6037773218430993
+  },
+  {
+    "NAME": "Jackson",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4667541443174295
+  },
+  {
+    "NAME": "Jefferson",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4989604696309619
+  },
+  {
+    "NAME": "Lafayette",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5809871573420258
+  },
+  {
+    "NAME": "Lake",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4504523030270324
+  },
+  {
+    "NAME": "Lee",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4886795315068435
+  },
+  {
+    "NAME": "Leon",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4149054308366242
+  },
+  {
+    "NAME": "Levy",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5372750825723833
+  },
+  {
+    "NAME": "Liberty",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.444255283678272
+  },
+  {
+    "NAME": "Madison",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4933501126593734
+  },
+  {
+    "NAME": "Manatee",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4291377479746814
+  },
+  {
+    "NAME": "Marion",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4906924198205517
+  },
+  {
+    "NAME": "Martin",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.6110600612637838
+  },
+  {
+    "NAME": "Miami-Dade",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4391451643349354
+  },
+  {
+    "NAME": "Monroe",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.7499044559414592
+  },
+  {
+    "NAME": "Nassau",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4657351533201943
+  },
+  {
+    "NAME": "Okaloosa",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.573120677465565
+  },
+  {
+    "NAME": "Okeechobee",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5769722762291893
+  },
+  {
+    "NAME": "Orange",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4350643538156825
+  },
+  {
+    "NAME": "Osceola",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4659390585618864
+  },
+  {
+    "NAME": "Palm Beach",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.542265304898979
+  },
+  {
+    "NAME": "Pasco",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5543246504491117
+  },
+  {
+    "NAME": "Pinellas",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5109317422938393
+  },
+  {
+    "NAME": "Polk",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4183116716573284
+  },
+  {
+    "NAME": "Putnam",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.6075781097407182
+  },
+  {
+    "NAME": "St. Johns",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4549564764449522
+  },
+  {
+    "NAME": "St. Lucie",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.575807829689915
+  },
+  {
+    "NAME": "Santa Rosa",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4794835597486358
+  },
+  {
+    "NAME": "Sarasota",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.471265264859152
+  },
+  {
+    "NAME": "Seminole",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4079397360503738
+  },
+  {
+    "NAME": "Sumter",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.4922922784457697
+  },
+  {
+    "NAME": "Suwannee",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5199420972764626
+  },
+  {
+    "NAME": "Taylor",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5436629062349015
+  },
+  {
+    "NAME": "Union",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5494786886751061
+  },
+  {
+    "NAME": "Volusia",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.3361979447271276
+  },
+  {
+    "NAME": "Wakulla",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5066559506174927
+  },
+  {
+    "NAME": "Walton",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5975319238299566
+  },
+  {
+    "NAME": "Washington",
+    "current_threat_level": "none",
+    "nearest_storm_distance_km": null,
+    "nearest_storm_name": null,
+    "nearest_storm_category": null,
+    "nearest_storm_wind_speed": null,
+    "has_active_threat": false,
+    "enhanced_vulnerability": 0.5524317694699732
+  }
+]

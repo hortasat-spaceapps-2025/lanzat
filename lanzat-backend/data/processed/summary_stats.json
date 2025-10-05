@@ -1,0 +1,95 @@
+{
+  "generated_at": "2025-10-05T02:36:02.777953",
+  "data_source": "NOAA IBTrACS",
+  "total_counties": 67,
+  "hurricane_risk_stats": {
+    "mean": 0.3696558799143886,
+    "median": 0.3635694519822844,
+    "std": 0.1393869990158596,
+    "min": 0.051071043304053015,
+    "max": 0.7000099961265009
+  },
+  "vulnerability_stats": {
+    "mean": 0.5805270190888423,
+    "median": 0.5805826518803752,
+    "std": 0.08131233710331001,
+    "min": 0.34924159022702883,
+    "max": 0.7514082903139517
+  },
+  "risk_category_counts": {
+    "Moderate": 37,
+    "High": 29,
+    "Low": 1
+  },
+  "top_10_vulnerable": [
+    {
+      "NAME": "Collier",
+      "vulnerability_score": 0.7514082903139517,
+      "hurricane_risk": 0.6612928233063311,
+      "storm_count": 26
+    },
+    {
+      "NAME": "Gulf",
+      "vulnerability_score": 0.7309196632309114,
+      "hurricane_risk": 0.6229745373054786,
+      "storm_count": 24
+    },
+    {
+      "NAME": "Okaloosa",
+      "vulnerability_score": 0.7012760273208491,
+      "hurricane_risk": 0.5681482709870216,
+      "storm_count": 26
+    },
+    {
+      "NAME": "St. Lucie",
+      "vulnerability_score": 0.69286803524034,
+      "hurricane_risk": 0.5923385847404421,
+      "storm_count": 26
+    },
+    {
+      "NAME": "Pasco",
+      "vulnerability_score": 0.6905632735850158,
+      "hurricane_risk": 0.5717475686278451,
+      "storm_count": 27
+    },
+    {
+      "NAME": "Indian River",
+      "vulnerability_score": 0.6895003951511929,
+      "hurricane_risk": 0.5185938867661114,
+      "storm_count": 25
+    },
+    {
+      "NAME": "Calhoun",
+      "vulnerability_score": 0.6884547057567572,
+      "hurricane_risk": 0.4587733933116174,
+      "storm_count": 18
+    },
+    {
+      "NAME": "Martin",
+      "vulnerability_score": 0.6875686026684033,
+      "hurricane_risk": 0.7000099961265009,
+      "storm_count": 30
+    },
+    {
+      "NAME": "Monroe",
+      "vulnerability_score": 0.6779902561112948,
+      "hurricane_risk": 0.48621245318163847,
+      "storm_count": 19
+    },
+    {
+      "NAME": "Charlotte",
+      "vulnerability_score": 0.6675281116011085,
+      "hurricane_risk": 0.4802880861926873,
+      "storm_count": 18
+    }
+  ],
+  "noaa_data": {
+    "total_historical_storms": 704,
+    "date_range": "1851-2023",
+    "categories_included": [
+      "Category 1-5",
+      "Tropical Storms",
+      "Tropical Depressions"
+    ]
+  }
+}

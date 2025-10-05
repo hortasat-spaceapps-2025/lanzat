@@ -1,0 +1,32 @@
+# VulnerabilityMap - Python Dependencies
+
+# Core Data Processing
+pandas>=2.1.0
+numpy>=1.24.0
+openpyxl>=3.1.0              # For Excel file reading (BEA GDP data)
+
+# Geospatial Libraries
+geopandas>=0.14.0
+rasterio>=1.3.0              # Satellite imagery (optional)
+fiona>=1.9.0                 # Geospatial file I/O
+shapely>=2.0.0               # Geometric operations
+pyproj>=3.6.0                # Coordinate system transformations
+
+# Web & API
+requests>=2.31.0             # HTTP requests for downloads
+fastapi>=0.104.0             # API framework
+uvicorn[standard]>=0.24.0    # ASGI server
+python-multipart>=0.0.6      # Form parsing
+
+# Database (Optional)
+# psycopg2-binary>=2.9.9     # PostgreSQL adapter
+# sqlalchemy>=2.0.0          # ORM
+
+# Development & Testing
+pytest>=7.4.0                # Testing framework
+pytest-cov>=4.1.0            # Test coverage
+httpx>=0.25.0                # Async HTTP client for testing
+
+# Utilities
+python-dotenv>=1.0.0         # Environment variables
+pydantic>=2.4.0              # Data validation
