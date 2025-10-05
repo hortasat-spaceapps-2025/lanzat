@@ -4,7 +4,11 @@ export default function Header() {
       <div className="container mx-auto px-3 sm:px-6 py-2 sm:py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center space-x-2 sm:space-x-4">
-            <div className="text-xl sm:text-3xl">🌊</div>
+            <img
+              src="/logo-compact.svg"
+              alt="Lanzat Logo"
+              className="w-8 h-8 sm:w-12 sm:h-12"
+            />
             <div>
               <h1 className="text-base sm:text-2xl font-bold">Lanzat</h1>
               <p className="text-blue-100 text-[10px] sm:text-sm hidden sm:block">Hurricane Economic Vulnerability Platform for Florida</p>
